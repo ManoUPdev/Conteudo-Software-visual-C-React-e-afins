@@ -2,6 +2,7 @@
 
 class Program
 {
+    // Declaração do enum Meses
     enum Meses
     {
         Janeiro = 1,
@@ -20,11 +21,24 @@ class Program
 
     static void Main(string[] args)
     {
-        // Utilizando o enum
-        Meses mesAtual = Meses.Outubro;
+       Console.WriteLine("Digite um numero de 1 a 12 para escolher um mes do ano:");
 
-        // Exibe o nome e o valor do mês
-        Console.WriteLine($"Estamos no mês de: {mesAtual}");  // Saída: Estamos no mês de: Outubro
-        Console.WriteLine($"Número do mês: {(int)mesAtual}"); // Saída: Número do mês: 10
+       // Leitura e validacao da entrada do usuario
+       if(int.TryParse(Console.ReadLine(), out int numero) && numero >= 1 && numero <= 12)
+       {
+
+        // Convertendo o numero para o enum correspondente
+        Meses mesEscolhido = (Meses)numero;
+
+
+        // Exibindo o mes correspondente
+         Console.WriteLine($"O mes escolhido e: {mesEscolhido}");
+         Console.WriteLine($"Numero do mes: {(int)mesEscolhido}");
+       }
+       else
+       {
+         Console.WriteLine("Numero invalido. Por favor, insira um numero entre 1 e 12.");
+       }
     }
 }
+        

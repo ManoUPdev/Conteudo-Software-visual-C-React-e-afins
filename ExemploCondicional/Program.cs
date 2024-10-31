@@ -10,17 +10,25 @@ class ExemploCondicional
         if (int.TryParse(Console.ReadLine(), out int idade))
         {
             // Condicional para verificar a faixa etária
-            if (idade >= 18)
+            if (idade < 0)
             {
-                Console.WriteLine("Voce e maior de idade.");
+                Console.WriteLine("Idade nao pode ser negativa. Por favor, insira uma idade valida.");
             }
-            else if (idade >= 16 && idade < 18)
+            else if (idade > 120)
+            {
+                Console.WriteLine("Idade parece irreal. Por favor, insira uma idade valida.");
+            }
+            else if (idade >= 18)
+            {
+                Console.WriteLine("Você e maior de idade.");
+            }
+            else if (idade >= 16)
             {
                 Console.WriteLine("Voce pode votar, mas ainda nao e maior de idade.");
             }
             else
             {
-                Console.WriteLine("Voce e menor de idade mas ainda nao pode votar.");
+                Console.WriteLine("Voce e menor de idade e tambem nao pode votar.");
             }
         }
         else
@@ -29,3 +37,4 @@ class ExemploCondicional
         }
     }
 }
+

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploSwitch", "ExemploSwitch.csproj", "{FFD15267-EF83-4F51-8EF7-1819DD2A1BEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExemploSwitch", "ExemploSwitch.csproj", "{ED5D1960-D664-44A6-8C28-13059525DB79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FFD15267-EF83-4F51-8EF7-1819DD2A1BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FFD15267-EF83-4F51-8EF7-1819DD2A1BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FFD15267-EF83-4F51-8EF7-1819DD2A1BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FFD15267-EF83-4F51-8EF7-1819DD2A1BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5D1960-D664-44A6-8C28-13059525DB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5D1960-D664-44A6-8C28-13059525DB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5D1960-D664-44A6-8C28-13059525DB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5D1960-D664-44A6-8C28-13059525DB79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2559468D-C310-4BB3-B764-70F6D0087C67}
+		SolutionGuid = {9423A908-F3E4-4F0C-882C-2D1422B7971B}
 	EndGlobalSection
 EndGlobal

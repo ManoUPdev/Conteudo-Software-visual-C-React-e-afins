@@ -16,7 +16,7 @@ class Program
 
     static void Main(string[] args)
     {
-        Console.WriteLine("Digite um número de 0 a 6 para escolher um dia da semana:");
+        Console.WriteLine("Digite um numero de 0 a 6 para escolher um dia da semana:");
         
         // Leitura e validação da entrada do usuário
         if (int.TryParse(Console.ReadLine(), out int numero) && numero >= 0 && numero <= 6)
@@ -25,7 +25,7 @@ class Program
             DiasDaSemana diaEscolhido = (DiasDaSemana)numero;
             
             // Exibindo o dia da semana correspondente
-            Console.WriteLine($"O dia escolhido é: {diaEscolhido}"); // Exemplo: "O dia escolhido é: Quarta"
+            Console.WriteLine($"O dia escolhido e: {diaEscolhido}"); // Exemplo: "O dia escolhido é: Quarta"
 
             // Mensagem personalizada para meio da semana
             if (diaEscolhido == DiasDaSemana.Quarta)
@@ -35,7 +35,7 @@ class Program
         }
         else
         {
-            Console.WriteLine("Número inválido. Por favor, insira um número entre 0 e 6.");
+            Console.WriteLine("Numero inválido. Por favor, insira um número entre 0 e 6.");
         }
     }
 }

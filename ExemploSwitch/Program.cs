@@ -4,7 +4,7 @@ class ExemploSwitch
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Digite um número de 1 a 7 para escolher um dia da semana:");
+        Console.WriteLine("Digite um numero de 1 a 7 para escolher um dia da semana:");
 
         // Leitura e validação da entrada do usuário
         if (int.TryParse(Console.ReadLine(), out int diaSemana) && diaSemana >= 1 && diaSemana <= 7)
@@ -37,7 +37,7 @@ class ExemploSwitch
         }
         else
         {
-            Console.WriteLine("Número inválido. Por favor, insira um número entre 1 e 7.");
+            Console.WriteLine("Numero invalido. Por favor, insira um numero entre 1 e 7.");
         }
     }
 }

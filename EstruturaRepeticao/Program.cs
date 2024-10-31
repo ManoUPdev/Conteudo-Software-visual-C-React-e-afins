@@ -6,7 +6,7 @@ class ExemploRepeticao
     static void Main(string[] args)
     {
         // Solicita ao usuário um número para a contagem com 'for'
-        Console.WriteLine("Digite um número para contar de 1 até esse número com 'for':");
+        Console.WriteLine("Digite um numero para contar de 1 ate esse numero com 'for':");
         
         if (int.TryParse(Console.ReadLine(), out int limiteFor) && limiteFor > 0)
         {
@@ -18,11 +18,11 @@ class ExemploRepeticao
         }
         else
         {
-            Console.WriteLine("Entrada inválida para o 'for'. Digite um número inteiro positivo.");
+            Console.WriteLine("Entrada invalida para o 'for'. Digite um numero inteiro positivo.");
         }
 
         // Solicita ao usuário um número para a contagem com 'while'
-        Console.WriteLine("\nDigite um número para contar de 1 até esse número com 'while':");
+        Console.WriteLine("\nDigite um numero para contar de 1 ate esse numero com 'while':");
         
         if (int.TryParse(Console.ReadLine(), out int limiteWhile) && limiteWhile > 0)
         {
@@ -36,12 +36,12 @@ class ExemploRepeticao
         }
         else
         {
-            Console.WriteLine("Entrada inválida para o 'while'. Digite um número inteiro positivo.");
+            Console.WriteLine("Entrada invalida para o 'while'. Digite um numero inteiro positivo.");
         }
 
         // Usa 'foreach' para percorrer uma lista
         List<int> numeros = new List<int> { 10, 20, 30, 40, 50 };
-        Console.WriteLine("\nContagem usando 'foreach' em uma lista de números predefinidos:");
+        Console.WriteLine("\nContagem usando 'foreach' em uma lista de numeros predefinidos:");
         
         foreach (int numero in numeros)
         {

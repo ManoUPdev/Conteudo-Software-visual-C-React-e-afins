@@ -47,6 +47,6 @@ class ExemploArray
             }
         }
 
-        Console.WriteLine($"\nO maior número no array é: {maiorNumero}");
+        Console.WriteLine($"\nO maior numero no array é: {maiorNumero}");
     }
 }
